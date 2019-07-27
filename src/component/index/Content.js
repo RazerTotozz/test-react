@@ -30,7 +30,6 @@ const Content = (props) => {
                     <Description>{props.context}</Description>
                 </Row>
             </Container>
-
         )
     } else if (props.contexts) {
         return (
